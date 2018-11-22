@@ -1,0 +1,117 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+header>div{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-centred{
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 50px -2px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 50px -2px rgba(255,255,255,1);
+  box-shadow: 0px 0px 50px -2px rgba(255,255,255,1);
+}
+
+.content-centred>p, button{
+  height: 5%;
+  margin: 0;
+}
+
+.list{
+  text-align:left;
+  list-style:none;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.char-list{
+  cursor: pointer;
+}
+
+.Slytherin{
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Gryffindor{
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Ravenclaw{
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Hufflepuff{
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.active{
+  border: 2px solid white;
+}
+
+.favoris{
+  height: 5vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.favoris > h4, .favoris > p, .favoris > button {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.favoris > p {
+  display: flex;
+  align-items: center;
+}
+
+.favoris > button {
+  cursor: pointer;
+}
